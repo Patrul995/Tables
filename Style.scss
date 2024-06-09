@@ -8,61 +8,34 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
 body {
-    margin-left: 0px;
+    background-color: #cbcbcb;
 }
-h1 {
-    margin-left: 20px;
-}
+
 .firstTable {
-    margin-left: 20px;
+    margin-left: 30%;
+    width: 600px;
+    background-color: #fff;
+    padding: 10px;
 
-    .tdForex {
-        display: block;
-        width: 800px;
-    }
-}
-
-.tablePictures {
-    width: 800px;
-    height: 270px;
-    background-color: #186247dd;
-    margin-top: 25px;
-
-    .tdTextUpPic {
-        display: block;
-        width: 500px;
-        height: 45px;
+    .divText {
+        background-color: rgb(51, 206, 165);
+        height: 180px;
         text-align: center;
-        margin-left: 28%;
         color: #fff;
-        margin-top: 25px;
     }
 
-    .tdImg:nth-child(1) {
-        padding-left: 40px;
-    }
-    .tdImg:nth-child(2) {
-        padding-right: 40px;
+    .forImg {
+        display: inline-block;
     }
 
-    .img1:hover {
-        transform: scale(1.2, 1.2);
+    .forImg:nth-child(3) {
+        margin-left: 50px;
+    }
+
+    .tdAdress {
+        text-align: center;
+        color: #cbcbcb;
+        font-size: 17px;
     }
 }
-
-.divAddres {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 800px;
-    color: #666060bb;
-    text-align: center;
-}
-
-hr {
-    width: 800px;
-    margin-left: 0px;
-}
-
-
